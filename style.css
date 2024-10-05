@@ -1,0 +1,95 @@
+body{
+    background-color: #F4D04E;
+    height:100vh;
+    margin:0;
+    overflow-x:hidden;
+
+}
+.flex{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height:100%;
+
+}
+.card {
+    margin-top:50%;
+    margin-bottom:50%;
+    background-color: white;
+    max-height:501px;
+    max-width:327px;
+    border-radius: 5%;
+    padding:5px;
+    border-color:black;
+    border-style:solid;
+    border-width:1px;
+    box-shadow:10px 10px black; 
+    
+
+}
+.img{
+    width: 90%;
+    height: 40%;
+    border-radius: 4%;
+    margin-top:5%;
+    margin-left:5%;
+    
+}
+.published{
+    margin-left:5%;
+    font-family:"Figtree";
+}
+/* .card-content{
+
+} */
+.title{
+    font-family:"Figtree";
+    font-size:20px;
+    margin-left:5%;
+    font-weight:800;
+    
+}
+.description{
+    font-family:"Figtree";
+    font-size:16px;
+    margin-left:5%;
+    color:gray;
+}
+.avatars{
+    display:flex;
+    margin-left:5%;
+    margin-bottom:5%;
+
+}
+.avatar{
+    width: 30px;
+    height: 30px;
+    
+}
+.avatar-name{
+    /* display:flex;
+    justify-content: center;
+    vertical-align: center; */
+    margin-top:2px;
+    margin-left:6px;
+}
+
+.text1{
+    font-size: 15px;
+    color: black;
+    margin-left: 5%;
+    padding: 5px 10px;
+    background-color:#F4D04E;
+    text-align: left;
+    border-radius: 5px;
+    /* display:; */
+    font-family:"Figtree";
+
+}
+@media(min-width:770px) {
+    
+    .card {
+        max-height:522px;
+        max-width: 384px;
+    }
+}
